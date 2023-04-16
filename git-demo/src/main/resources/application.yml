@@ -45,11 +45,11 @@ spring:
         max-idle: 5
         min-idle: 0
 mybatis:
-  #  config-location: classpath:mybatis/mybatis-config.xml
+  # config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
-#actuator暴露所有端点信息
+# actuator暴露所有端点信息
 management:
   endpoints:
     enabled-by-default: true #暴露所有端点信息
